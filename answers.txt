@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: Varying growth of time in each case like reversed and random, and roughly squared growth of time with increasing n, some cases taking the most time out of all sorting algorithms
+
+sort2 uses: Merge sort
+
+How do you know?: Overall lowest times and less than squared growth of time compared to number of outputs
+
+sort3 uses: Selection sort
+
+How do you know?: Time taken versus number of inputs was almost same for all three types: sorted, random and reversed indicationg same number of steps in each case, with increase in time being roughly n^2
