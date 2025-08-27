@@ -31,7 +31,10 @@ Week 5 — Data Structures
 - dictionary.h
 
 Week 6 — Python
-- (to be added)
+- hello.py
+- mario.py
+- credit.py
+- readability.py
 
 Week 7 — SQL
 - (to be added)
