@@ -35,6 +35,7 @@ Week 6 — Python
 - mario.py
 - credit.py
 - readability.py
+- dna.py
 
 Week 7 — SQL
 - (to be added)
