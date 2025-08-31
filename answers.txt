@@ -1,0 +1,8 @@
+1. I would describe that guy of not actually having his own taste, and that they are listening to only popular songs meaning either they are
+exploring all the popular songs, or they just don't care much about music and listen to most popular songs so they don't have to worry about
+finding music that they like.
+
+2. I think one crucial missing factor is repeatability, how many times has the user looped, played back the song and for how long? Some songs are
+trendy at first, but people get bored of it and some songs always stay popular, they are the best ones which I dont see how is measured using
+existing formula. Also likeability of a song, the song being good is important as sometimes artist's hype can overshadow the ratings and hide
+the true nature and performance of a song, sure it might be initially popular, but will it be popular in the future once the trend is gone?
