@@ -38,7 +38,9 @@ Week 6 — Python
 - dna.py
 
 Week 7 — SQL
-- (to be added)
+- songs (contains answers from 1.sql to 8.sql)
+- movies (contains answers from 1.sql to 13.sql)
+- fiftyville (contains answers.txt and log.sql) - *Best Problem*
 
 Week 8 — HTML, CSS, JavaScript
 - (to be added)
