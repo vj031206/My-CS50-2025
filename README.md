@@ -43,7 +43,8 @@ Week 7 — SQL
 - fiftyville (contains answers.txt and log.sql) - *Best Problem*
 
 Week 8 — HTML, CSS, JavaScript
-- (to be added)
+- trivia (contains index.html and styles.css)
+- homepages (contains index.html, cast.html, episodes.html, updates.html, style.css, scripts.js and 2 images)
 
 Week 9 — Flask
 - (to be added)
