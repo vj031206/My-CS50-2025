@@ -44,7 +44,7 @@ Week 7 — SQL
 
 Week 8 — HTML, CSS, JavaScript
 - trivia (contains index.html and styles.css)
-- homepages (contains index.html, cast.html, episodes.html, updates.html, style.css, scripts.js and 2 images)
+- homepages (contains index.html, cast.html, episodes.html, updates.html, styles.css, scripts.js and 2 images)
 
 Week 9 — Flask
 - (to be added)
