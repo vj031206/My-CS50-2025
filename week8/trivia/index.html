@@ -2,130 +2,65 @@
 
 <html lang="en">
     <head>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src='scripts.js'></script>
         <link href="styles.css" rel="stylesheet">
-        <title>Trivia!</title>
-        <style>
-            .option {
-                display: inline-block;
-                margin: 10px;
-                text-align: center;      /* text aligns under button */
-                vertical-align: top;     /* keeps all buttons aligned at the top */
-            }
-
-            .displayText {
-                height: 25px;            /* FIXED space under every button */
-                margin-top: 5px;
-                visibility: hidden;      /* takes space, but stays invisible */
-            }
-
-            button {
-                background-color: #D3D3D3;
-                padding: 8px 16px;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-            }
-        </style>
-        <script>
-            // TODO: Add code to check answers to questions
-            document.addEventListener('DOMContentLoaded', function(){
-                let buttons = document.querySelectorAll('button');
-                buttons.forEach(function(button){
-                    button.addEventListener('click', function(event){
-                        document.querySelectorAll('.displayText').forEach(function(div){
-                            div.style.visibility = 'hidden';
-                        });
-
-                        let message = event.target.nextElementSibling;
-                        if (message){
-                            message.style.visibility = 'visible';
-                        }
-                        buttons.forEach(function(button){
-                            button.style.backgroundColor = '#D3D3D3';
-                        });
-
-                        if (button.id == 'Nov26'){
-                            event.target.style.backgroundColor = 'blue';
-                            message.textContent = 'Correct';
-                        }
-                        else{
-                            event.target.style.backgroundColor = 'red';
-                            message.textContent = 'Incorrect';
-                        }
-                    });
-                });
-
-                let response = document.querySelector('#response');
-                let submit = document.querySelector('#submit');
-                let responseText = document.querySelector('#responseText');
-
-                submit.addEventListener('click',function(){
-                    let answer = response.value.trim().toLowerCase();
-
-                    console.log("Answer typed:", answer);
-
-                    if (answer == 'hawkins')
-                    {
-                        response.style.backgroundColor = 'blue';
-                        responseText.textContent = 'Correct';
-                        responseText.style.visibility = 'visible';
-                    }
-                    else
-                    {
-                        response.style.backgroundColor = 'red';
-                        responseText.textContent = 'Incorrect';
-                        responseText.style.visibility = 'visible';
-                    }
-                })
-
-            });
-
-
-        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home</title>
     </head>
     <body>
-        <div class="header">
-            <h1>Trivia!</h1>
-        </div>
-
-        <div class="container">
-            <div class="section">
-                <h2>Part 1: Multiple Choice </h2>
-                <hr>
-                <h3>When is the volume 1 of Stranger Things 5 coming up?</h3>
-                    <div class="option">
-                        <button id="Nov26">Nov 26</button>
-                        <div class="displayText">Correct</div>
-                    </div>
-
-                    <div class="option">
-                        <button id="Nov27">Nov 27</button>
-                        <div class="displayText">Incorrect</div>
-                    </div>
-
-                    <div class="option">
-                        <button id="Dec25">Dec 25</button>
-                        <div class="displayText";>Incorrect</div>
-                    </div>
-
-                    <div class="option">
-                        <button id="Dec31">Dec 31</button>
-                        <div class="displayText";>Incorrect</div>
-                    </div>
-
-                <hr>
+        <div class='container mx-auto pb-4'>
+            <div class='row'>
+                <ul class= "nav justify-content-center nav-fill">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="cast.html">Cast</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="updates.html">Updates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="episodes.html">Episodes</a>
+                    </li>
+                </ul>
             </div>
 
-            <div class="section">
-                <h2>Part 2: Free Response</h2>
-                <hr>
-                <!-- TODO: Add free response question here -->
-                <h3>Which town is it based upon?</h3>
-                    <input name='response' type='text' id = 'response'autocomplet='off' placeholder='Write here'>
-                    <input type = 'button' value = 'Submit' id = 'submit'>
-                    <div id="responseText" class="displayText"></div>
+
+            <div class='row'>
+                <h1 id='main-title'>Stranger Things Season 5: Everything to know</h1>
+            </div>
+
+            <div class='row'>
+                <h2>Synopsis</h2>
+                    <p>
+                        The fall of 1987. Hawkins is scarred by the opening of the Rifts, and our heroes are united by a single goal:
+                        find and kill Vecna. But he has vanished — his whereabouts and plans unknown. Complicating their mission, the
+                        government has placed the town under military quarantine and intensified its hunt for Eleven, forcing her
+                        back into hiding. As the anniversary of Will’s disappearance approaches, so does a heavy, familiar dread.
+                        The final battle is looming — and with it, a darkness more powerful and more deadly than anything they’ve
+                        faced before. To end this nightmare, they’ll need everyone — the full party — standing together, one last time.
+                    </p>
+            </div>
+
+            <div class='row'>
+                <img src='images/image.png' alt = 'S5 poster' id='poster' class='image-fluid'>
+            </div>
+
+            <div class='row'>
+                <h2>Release Dates</h2>
+                    <p id = 'release_dates'>
+                        Volume I: Nov 26
+                        <br>
+                        Volume II: Christmas
+                        <br>
+                        Finale: New Year's Eve
+                    </p>
             </div>
         </div>
+
     </body>
+
 </html>
