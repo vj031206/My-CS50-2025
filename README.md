@@ -47,7 +47,8 @@ Week 8 — HTML, CSS, JavaScript
 - homepages (contains index.html, cast.html, episodes.html, updates.html, styles.css, scripts.js and 2 images)
 
 Week 9 — Flask
-- (to be added)
+- birthdays (contains app.py birthdays.db styles.css and index.html)
+- finance (contains app.py finance.db helpers.py requirements.txt styles.css and templates (apology.html, buy.html, history.html, index.html, layout.html, login.html, quote.html, registration.html and sell.html))
 
 Week 10 — Emoji
 - (to be added)
